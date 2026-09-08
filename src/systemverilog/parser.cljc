@@ -8,7 +8,7 @@
   `endinterface`, `class NAME [extends PARENT];` / `endclass`,
   `logic [N:0] name;` / `bit name;` declarations, and
   `assert (expr) else $error(msg);` statements."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [systemverilog.datatype :as datatype]
             [systemverilog.interface :as iface]
             [systemverilog.class :as sv-class]
