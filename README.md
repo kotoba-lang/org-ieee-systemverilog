@@ -25,5 +25,5 @@ properties (SVA temporal operators), packages, parameterized classes.
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
