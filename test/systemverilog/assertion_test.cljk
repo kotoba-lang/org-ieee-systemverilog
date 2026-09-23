@@ -1,5 +1,5 @@
 (ns systemverilog.assertion-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [systemverilog.assertion :as assertion]))
 
 (deftest check-evaluates-expr-and-reports-else-msg-on-failure

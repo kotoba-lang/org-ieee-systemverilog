@@ -1,5 +1,5 @@
 (ns systemverilog.parser-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [systemverilog.assertion :as assertion]
             [systemverilog.interface :as iface]
             [systemverilog.parser :as parser]))
