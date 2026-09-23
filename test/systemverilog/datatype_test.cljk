@@ -1,5 +1,5 @@
 (ns systemverilog.datatype-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [systemverilog.datatype :as datatype]))
 
 (deftest type-classification-and-signal-construction

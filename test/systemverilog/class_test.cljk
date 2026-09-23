@@ -1,5 +1,5 @@
 (ns systemverilog.class-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [systemverilog.class :as sv-class]))
 
 (def ^:private registry
